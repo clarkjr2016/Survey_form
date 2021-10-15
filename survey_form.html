@@ -13,18 +13,37 @@
     <input type="text" id="name" name ="name" placeholder= "Name" required> <br>
 
     <label for="email" id="email-label" > Email: </label>
-    <input type="email" name="email" id="email" placeholder="Email"> <br>
+    <input type="email" name="email" id="email" placeholder="Email" required> <br>
 
     <label for="number" id="number-label"> Number: </label>
-    <input type="number" name ="number" id="number" min ="0" max="1" placeholder="Number"> <br>
+    <input type="number" name ="number" id="number" min ="0" max="1" placeholder="Number" required> <br> 
 
     <label for="dropdown"> Dropdown </label>
-    <select name="dropdown" id="dropdown"> 
+    <select name="dropdown" id="dropdown" size ="1"> <br>
+    <option value ="option 1"> Option 1 </option>
+    <option value = "option 2"> Option 2 </option> <br>
+    </select> <br>
 
-    
+    <label for="option 3"> Option 3 </label>
+    <input type="radio" name="options" id="option 3"  value ="option 3"> <br>
 
-    </select>
+    <label for="option 4"> Option 4 </label>
+    <input type="radio" name="options" id= "option 4" value ="option 4"> <br>
 
+    <label for="option 5"> Option 5 </label>
+    <input type="checkbox" name="checkboxes" id = "option 5" value="5"> <br>
+
+    <label for="option 6"> Option 6 </label>
+    <input type="checkbox" name="checkboxes" id = "option 6" value="6"> <br>
+
+    <label for="option 7"> Option 7 </label>
+    <input type="checkbox" name="checkboxes" id = "option 7" value ="7"> <br>
+
+
+    <label for="feedback"> Feedback: </label> <br>
+    <textarea id="feedback" name="feedback" rows= "10" columns="10"> Tell us more... </textarea> <br>
+
+    <input type="submit" id="submit">
 
 
     </form>

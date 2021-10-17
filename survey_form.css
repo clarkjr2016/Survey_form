@@ -1,3 +1,33 @@
 body {
 	background-color:  #91e4fb;
+
 }
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+}
+
+#title-container {
+	display: flex;
+	justify-content: center; 
+}
+
+#title {
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	border: 3px solid black;
+	border-radius: 136px;
+	background-color: #b7e7fc;
+	box-shadow: 10px 10px 5px 0px;
+	font: 72px "system-ui";
+}
+
+
+#form-container {
+	border: 3px solid black;
+	width: 75%;
+	background-color: #b7e7fc;
+	box-shadow:8px 5x 2px 0px;
+	}

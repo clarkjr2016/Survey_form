@@ -10,7 +10,7 @@ body {
 
 #title-container {
 	display: flex;
-	justify-content: center; 
+	
 }
 
 #title {
@@ -26,8 +26,18 @@ body {
 
 
 #form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	border: 3px solid black;
-	width: 75%;
+	width: auto;
 	background-color: #b7e7fc;
-	box-shadow:8px 5x 2px 0px;
+	box-shadow: 10px 10px 5px 0px;
+	padding: 50px;
+	margin:  50px;
+	border-radius: 10px;
 	}
+
+#survey-form {
+	border: 3px solid black;
+}

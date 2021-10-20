@@ -13,6 +13,10 @@ body {
 	
 }
 
+#description {
+	text-align: center;
+}
+
 #title {
 	width: 75%;
 	display: flex;
@@ -29,6 +33,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	border: 3px solid black;
 	width: auto;
 	background-color: #b7e7fc;
@@ -39,5 +44,28 @@ body {
 	}
 
 #survey-form {
+	width: 75%;
+	display: flex;
+	justify-content: space-around;
 	border: 3px solid black;
+	padding: 1em;
+}
+
+input {
+margin-bottom: 1em;
+}
+
+select {
+margin-bottom: 1em;
+}
+
+#section_3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#submit {
+	padding:  2em;
+	border-radius: 10px;
 }

@@ -53,6 +53,11 @@ body {
 	background-color: #9ce3f8;
 }
 
+#number {
+	width: 5em;
+}
+
+
 input {
 margin-bottom: 1em;
 }
